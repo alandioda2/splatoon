@@ -83,7 +83,7 @@ public class Miptoon extends JavaPlugin implements Listener {
 					if(length == 0) {
 						player.sendMessage(ChatColor.RED + "MipToon");
 						player.sendMessage(ChatColor.RED + "Version " + getDescription().getVersion());
-						player.sendMessage(ChatColor.RED + "Craetaed by " + ChatColor.DARK_PURPLE + "alandioda");
+						player.sendMessage(ChatColor.RED + "Craetaed by " + ChatColor.DARK_PURPLE + "MIP CRAFT TEAM");
 						player.sendMessage(ChatColor.RED + "Type /spl help for help");
 						return true;
 					} else if(length == 1) {
