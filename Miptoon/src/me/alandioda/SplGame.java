@@ -29,7 +29,7 @@ public class SplGame {
 	Objective obj;
 	Score website; // mipcraft.eu
 	Team timeDispl; // Time: 7:00
-	Team playersDispl; // ❤❤❤❤ ❤❤❤❤
+	Team playersDispl; // ❤❤❤❤ ❤❤❤❤ display for team (who is alive and who isn't)
 	
 	//game save data
 	String gamePath;

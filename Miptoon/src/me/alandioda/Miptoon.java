@@ -58,7 +58,7 @@ public class Miptoon extends JavaPlugin implements Listener {
 		
 	}
 	
-	@Override
+	@Override // commands
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		if(sender instanceof Player) {
 			Player player = (Player) sender;
@@ -222,7 +222,7 @@ public class Miptoon extends JavaPlugin implements Listener {
 	    int team2 = 0;
 	    for(Entry<String, PlayerData> playerData : game.players.entrySet()) {
 	    	if(game.teamColor1 == playerData.getValue().teamColor) {
-	    		s[team1] = ((playerData.getValue().isAlive)?(getColor(game.teamColor1) + "❤"):(ChatColor.GRAY + "❤"));
+	    		s[team1] = ((playerData.getValue().isAlive)?(getColor(game.teamColor1) + "❤"):(ChatColor.GRAY + "❤")); //cahnage color if the player is dead
 	    		team1++;
 	    	} else {
 	    		s[team2 + 4] = ((playerData.getValue().isAlive)?(getColor(game.teamColor2) + "❤"):(ChatColor.GRAY + "❤"));

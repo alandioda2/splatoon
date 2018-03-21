@@ -1,4 +1,4 @@
-package me.alandioda;
+package tests;
 
 import java.util.ArrayList;
 import java.util.List;
