@@ -1,0 +1,15 @@
+name: Miptoon
+main: me.alandioda.Miptoon
+version: 1.0
+softdepend: [LibsDisguises]
+softdepend: [Multiverse-Core]
+commands:
+   spl:
+      description: It tells you about the plugin.
+      usage: /<command>
+   splatoon:
+      description: It tells you about the plugin.
+      usage: /<command>
+   Miptoon:
+      description: It tells you about the plugin.
+      usage: /<command>  
